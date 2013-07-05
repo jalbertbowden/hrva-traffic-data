@@ -1,0 +1,40 @@
+https://code.google.com/p/multiprint-jsx/">
+	
+multiprint-jsx
+Export Adobe InDesign publications to individual files (one page - one file).</p>
+
+<ol>
+  <li>Multiprint.jsx
+Script for Adobe InDesign CS2, CS3, CS4, CS5 is designed to generate PostScript or PDF files by page for each of the open documents or print directly to a printer.
+
+
+
+1) a list of documents from the book. Will be exported only pages of the recorded documents;
+
+2) Deselect a book of documents. WARNING! By checking this box you must click "OK" dialog. Only after this action will be executed;
+
+3) a list of documents that are not included in any of the open books;
+
+4) the type of export - Postscript files or PDF;
+
+5) If the selected export files Poscscript, then you can select the Print Preset with the necessary parameters of the press;
+
+6) if the selected file export PDF, then you can select a preset with the parameters of exports;
+
+7) Number of exported pages. Will be exported only selected pages in all tagged documents. Page numbering corresponds to the indices in the palette Pages. When blank field will be exported to all pages of all tagged documents. Pages with the same numbers can be overwritten. To avoid this, use the alternate in the templates for the names of files and folders;
+
+8) template to create a script subfolders, they will put the exported file. Leave this field blank if you do not need to create subfolders;
+
+9) a template for the names of the exported file;
+
+10) the page number in the name of the exported file will be added on the left with zeros to a specified number of characters.</li>
+</ol>
+
+
+
+
+
+<a href="https://code.google.com/p/radish/">radish &#45; Version Control for InDesign and InCopy</a>
+<strong>Radish</strong>: Scripts for running version control with Adobe InDesign and InCopy.</p>
+
+
