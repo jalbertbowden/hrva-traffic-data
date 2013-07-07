@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
     <link type="text/css" rel="stylesheet" href="style.css" />
 <style>
-.content{width:100%}
-.datatable{width:98%}
-td{text-align:center}
 </style>
   </head>
   <body>
@@ -31,16 +28,39 @@ td{text-align:center}
           </table>
             <h1>VDOT Data</h1>
             <table class="datatable">
-              <caption>Specification values: <b>Steel</b>, <b>Castings</b>, Ann. A.S.T.M. A27-16, Class B;* P max. 0.06; S max. 0.05.</caption> 
+              <caption>Data Tables Demo Legend</caption> 
               <thead>
-                <tr><th rowspan="3">Juris Name</th><th rowspan="3">Facility Name</th><th rowspan="3">Segment From</th><th rowspan="3">Segment To</th><th rowspan="3">Dir</th><th colspan="12">Weekly Traffic Volumes</th></tr>
-                <tr><th colspan="2">2007</th><th colspan="2">2008</th><th colspan="2">2009</th><th colspan="2">2010</th><th colspan="2">2011</th><th colspan="2">2012</th></tr>
-                <tr><th>Volume</th><th>Count Data & Source</th><th>Volume</th><th>Count Data & Source</th><th>Volume</th><th>Count Data & Source</th><th>Volume</th><th>Count Data & Source</th><th>Volume</th><th>Count Data & Source</th><th>Volume</th><th>Count Data & Source</th></tr> 
+                <tr><th class="sm" rowspan="4">Juris Name</th><th class="sm" rowspan="4">Facility Name</th><th class="sm" rowspan="4">Segment From</th><th class="sm" rowspan="4">Segment To</th><th class="sm" rowspan="4">Dir</th><th colspan="12">Weekly Traffic Volumes</th><th colspan="12">2012 Speed and Congestion Data</th></tr>
+                <tr><th colspan="2">2007</th><th colspan="2">2008</th><th colspan="2">2009</th><th colspan="2">2010</th><th colspan="2">2011</th><th colspan="2">2012</th><th colspan="6">AM Peak Hour</th><th colspan="6">PM Peak Hour</th></tr>
+                <tr>
+                  <th rowspan="2">Volume</th><th rowspan="2">Count Data & Source</th>
+                  <th rowspan="2">Volume</th><th rowspan="2">Count Data & Source</th>
+                  <th rowspan="2">Volume</th><th rowspan="2">Count Data & Source</th>
+                  <th rowspan="2">Volume</th><th rowspan="2">Count Data & Source</th>
+                  <th rowspan="2">Volume</th><th rowspan="2">Count Data & Source</th>
+                  <th rowspan="2">Volume</th><th rowspan="2">Count Data & Source</th>
+                  <th colspan="2">Speed (<abbr>mph</abbr>)</th><th colspan="2">Travel Time Index</th><th colspan="2">Congestion Level</th>
+                  <th colspan="2">Speed (<abbr>mph</abbr>)</th><th colspan="2">Travel Time Index</th><th colspan="2">Congestion Level</th>
+                </tr>
+                <tr>
+                  <th><abbr>nb</abbr>&#47;<abbr>eb</abbr></th>
+                  <th><abbr>sb</abbr>&#47;<abbr>wb</abbr></th>
+                  <th><abbr>nb</abbr>&#47;<abbr>eb</abbr></th>
+                  <th><abbr>sb</abbr>&#47;<abbr>wb</abbr></th>
+                  <th><abbr>nb</abbr>&#47;<abbr>eb</abbr></th>
+                  <th><abbr>sb</abbr>&#47;<abbr>wb</abbr></th>
+                  <th><abbr>nb</abbr>&#47;<abbr>eb</abbr></th>
+                  <th><abbr>sb</abbr>&#47;<abbr>wb</abbr></th>
+                  <th><abbr>nb</abbr>&#47;<abbr>eb</abbr></th>
+                  <th><abbr>sb</abbr>&#47;<abbr>wb</abbr></th>
+                  <th><abbr>nb</abbr>&#47;<abbr>eb</abbr></th>
+                  <th><abbr>sb</abbr>&#47;<abbr>wb</abbr></th>
+                </tr>
             </thead>
             <tbody>
-              <tr><td>Juris Name</td><td>Facility Name</td><td>Segment From</td><td>Segment To</td><td>DIR</td><td>2007 a</td><td>2007 b</td><td>2008 a</td><td>2008 b</td><td>2009 a</td><td>2009 b</td><td>2010 a</td><td>2010 b</td><td>2011 a</td><td>2011 b</td><td>2012 a</td><td>2012 b</td></tr> 
-              <tr> <td>Medium</td> <td>0.45 ultimate</td> <td>49.2</td> <td>70,000</td> <td>18</td><td>25</td><td>20</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td></tr> 
-              <tr> <td>Soft</td> <td>0.45 ultimate</td> <td>42.2</td> <td>60,000</td> <td>22</td><td>30</td><td>20</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td></tr> 
+              <tr><td>Juris Name</td><td>Facility Name</td><td>Segment From</td><td>Segment To</td><td>DIR</td><td>2007 a</td><td>2007 b</td><td>2008 a</td><td>2008 b</td><td>2009 a</td><td>2009 b</td><td>2010 a</td><td>2010 b</td><td>2011 a</td><td>2011 b</td><td>2012 a</td><td>2012 b</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td></tr> 
+              <tr> <td>Medium</td> <td>0.45 ultimate</td> <td>49.2</td> <td>70,000</td> <td>18</td><td>25</td><td>20</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td></tr> 
+              <tr> <td>Soft</td> <td>0.45 ultimate</td> <td>42.2</td> <td>60,000</td> <td>22</td><td>30</td><td>20</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>50</td><td>05</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td><td>NB/EB</td><td>SB/WB</td></tr> 
             </tbody>
           </table>
           </section>
