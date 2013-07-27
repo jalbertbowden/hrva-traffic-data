@@ -122,3 +122,10 @@ thead{margin-top:50px}
 td{text-align:center}
 .datatable th,.datatable td{font-size:11px}
 .datatable th{vertical-align:center; background-color:#f1f1f1}
+
+
+.datatable td.doublecolumnbglow{color:#f1f1f1; background-color:#1a1a1a}
+.datatable td.doublecolumnbgmod{background-color:#a4a4a4; color:#1a1a1a}
+.datatable td.doublecolumnbgsev{background-color:#d8d8d8; color:#1a1a1a}
+.heading{background:#d8d8d8 !important; border-top: 1px solid #a4a4a4; border-bottom: 1px solid #a4a4a4}
+.evenrow{color:#444; background-color: #f3f3f3; border-bottom: solid 1px #ccc; border-top: solid 1px #ccc}
